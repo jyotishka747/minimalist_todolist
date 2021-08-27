@@ -72,7 +72,7 @@ form button {
   
   .trash-btn,
   .complete-btn {
-    background: black;
+    background: red;
     color: white;
     border: none;
     padding: 1rem;
@@ -99,4 +99,38 @@ form button {
   .completed {
     text-decoration: line-through;
     opacity: 0.5;
+  }
+
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background-image: none;
+  }
+  
+  .select {
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+  select {
+    color: black;
+    font-family: "Oswald", sans-serif;
+    cursor: pointer;
+    width: 12rem;
+  }
+  
+  .select::after {
+    content: "\25BC";
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    background: indigo;
+    cursor: pointer;
+    pointer-events: none;
   }
