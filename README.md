@@ -15,6 +15,7 @@ The major parts of this project with individual elements are as follows
     - Most colour aspect of the website is kept black and white with few exceptions to select, task complete and delete element
     - The background image used is a non-copyright image downloaded from unsplash
     - All content is justified at center with respective attributes as and when required
+    - Design is made responsive using media query
 
 - JS
     - DOM model is used by using queryselectors
