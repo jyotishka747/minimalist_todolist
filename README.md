@@ -20,3 +20,5 @@ The major parts of this project with individual elements are as follows
     - DOM model is used by using queryselectors
     - Appropriate functions for addition, deletion, filter and saving to local storage are used
     - The content is being stored in the local storage in array format from which elements are pushed, shifted or spliced
+
+[The link for the deployed website](https://todolist-by-jb.netlify.app/)
