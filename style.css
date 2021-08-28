@@ -131,3 +131,43 @@ form button {
     cursor: pointer;
     pointer-events: none;
   }
+
+  @media (max-width:767px) {
+    .hd {
+      font-size: 1.15em;
+    }
+    
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+form input {
+  width: 10em;
+  border-left: 1.2rem;
+}
+
+.filter-todo {
+  padding: 0.7em;
+  border-right: 1.2em;
+}
+
+.select {
+  margin: 0.5rem;
+}
+
+select {
+  width: 7rem;
+}
+
+.todo {
+  margin: 0.3rem;
+  font-size: 1.2em;
+}
+
+.trash-btn,
+  .complete-btn {
+    height: 1.8em;
+    padding: 0.2em 0.5em 0.2em;
+  }
+  }
